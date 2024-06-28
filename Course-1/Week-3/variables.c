@@ -1,9 +1,7 @@
 #include <stdio.h>
-int main () {
-    //DECLARATION AND DEFINITION
-    int balance;
-    balance = 50;
-    //USE
-    printf("I have %d dollars in my account\n", balance);
+int main() {
+    int balance; //DECLARATION
+    balance = 40;//DEFINITION
+    printf("I have %d dollars in my account\n", balance);//USE
     return 0;
 }
