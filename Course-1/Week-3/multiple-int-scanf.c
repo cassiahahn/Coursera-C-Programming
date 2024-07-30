@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main (void) {
     int first, second, third;
-    printf("Please put three integers: ");
-    scanf("%d%d%d", &first, &second, &third);
+    printf("Please put three integers, separated by commas: ");
+    scanf("%d,%d,%d", &first, &second, &third);
     printf("You entered: %d for first, %d for second, %d for third. \n", first, second, third);
+    
     return 0;
 }
